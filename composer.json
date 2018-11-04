@@ -1,8 +1,9 @@
 {
     "name": "ptuchik/recaptcha-v3",
     "type": "library",
-    "description": "Google's reCaptcha v3 Laravel wrapper",
+    "description": "Google's reCaptcha v3 Laravel validator",
     "keywords": [
+        "laravel",
         "google",
         "recaptcha"
     ],
