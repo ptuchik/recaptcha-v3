@@ -1,0 +1,34 @@
+{
+    "name": "ptuchik/recaptcha-v3",
+    "type": "library",
+    "description": "Google's reCaptcha v3 Laravel wrapper",
+    "keywords": [
+        "google",
+        "recaptcha"
+    ],
+    "homepage": "https://github.com/ptuchik/recaptcha-v3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Avik Aghajanyan",
+            "email": "avik.aghajanyan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ptuchik\\Recaptcha\\": "src/"
+        }
+    },
+    "require": {
+        "google/recaptcha": "^1.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ptuchik\\Recaptcha\\RecaptchaServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
