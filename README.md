@@ -34,6 +34,6 @@ Use as regular validation rule "recaptcha:{ACTION}" like:
 
 ```php
     Validator::make($request->all(), [
-        'g-recaptcha-response' => 'recaptcha:register'
+        'g-recaptcha-response' => 'required|recaptcha:register'
     ]);
 ```
