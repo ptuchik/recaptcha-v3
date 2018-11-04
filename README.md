@@ -1,5 +1,8 @@
 # Google reCaptcha v3 for Laravel 5.6+
 
+[![Latest Stable Version](https://poser.pugx.org/ptuchik/recaptcha-v3/version.png)](https://packagist.org/packages/ptuchik/recaptcha-v3)
+[![Total Downloads](https://poser.pugx.org/ptuchik/recaptcha-v3/d/total.png)](https://packagist.org/packages/ptuchik/recaptcha-v3)
+
 ## Installation
 
 To install, simply add it
