@@ -1,10 +1,12 @@
 {
     "name": "ptuchik/recaptcha-v3",
     "type": "library",
-    "description": "Google's reCaptcha v3 Laravel wrapper",
+    "description": "Google's reCaptcha v3 Laravel validator",
     "keywords": [
+        "laravel",
         "google",
-        "recaptcha"
+        "recaptcha",
+        "recaptcha v3"
     ],
     "homepage": "https://github.com/ptuchik/recaptcha-v3",
     "license": "MIT",
