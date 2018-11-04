@@ -5,7 +5,8 @@
     "keywords": [
         "laravel",
         "google",
-        "recaptcha"
+        "recaptcha",
+        "recaptcha v3"
     ],
     "homepage": "https://github.com/ptuchik/recaptcha-v3",
     "license": "MIT",
