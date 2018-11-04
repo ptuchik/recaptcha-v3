@@ -26,8 +26,6 @@ class RecaptchaServiceProvider extends ServiceProvider
                 $recaptcha->setExpectedAction($parameters[0]);
             }
 
-            dd($recaptcha->verify($value, $app['request']->getClientIp()));
-
             return $recaptcha->verify($value, $app['request']->getClientIp())->isSuccess();
         });
     }
@@ -40,7 +38,7 @@ class RecaptchaServiceProvider extends ServiceProvider
         $path = __DIR__.'/config/recaptcha.php';
         $this->mergeConfigFrom($path, 'recaptcha');
         if (function_exists('config_path')) {
-            $this->publishes([$path => config_path('recaptcha.php')]);
+            $this->publishes([$path => config_path('recaptcha.php')], 'config');
         }
     }
 

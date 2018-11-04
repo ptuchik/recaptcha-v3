@@ -20,6 +20,10 @@ And run composer to update your dependencies:
 Or you can simply run
 
     composer require ptuchik/recaptcha-v3
+    
+Publish configuration file to your `config` folder with command:
+
+    php artisan vendor:publish --provider="Ptuchik\Recaptcha\RecaptchaServiceProvider" --tag=config
 
 ## Usage
 
